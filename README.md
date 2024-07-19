@@ -1,8 +1,18 @@
 # MikroTik watchdog port status and send notification to telegram
 
+### Setings script
+Change in ScriptSetings.rsc BotId, ChatId
 
-In ScriptSetings.rsc set BotId and ChatId.
+```
+:global BotId "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+:global ChatId "xxxxxx";
+```
+
 In downETHER.rsc set nameport for check status
+
+```
+:global nameport "ether2";
+```
 
 Run in console for add autostart
 
